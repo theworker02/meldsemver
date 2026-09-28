@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meldsemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meld CSV/TSV semver tables for quick inspection and cleanup.",
+  "bin": {
+    "meldsemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meldsemver.git"
+  },
+  "homepage": "https://theworker02.github.io/meldsemver/",
+  "keywords": [
+    "meld",
+    "semver",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
